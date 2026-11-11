@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "appId": "959c0488-9c10-4d81-8a90-1d49122c48d0",
+  "appDisplayName": "Project Board",
+  "region": "prod",
+  "environmentId": "5fe5c7a5-e92d-eab6-9b4c-19d9b98f2b57",
+  "description": "Projekttavlen: projekter fordelt på tilbud, PFA og prototype",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "projekter": {
+          "entitySetName": "i8pb_projects",
+          "logicalName": "i8pb_project"
+        },
+        "opgaver": {
+          "entitySetName": "i8pb_tasks",
+          "logicalName": "i8pb_task"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
